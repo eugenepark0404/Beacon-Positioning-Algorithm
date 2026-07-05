@@ -1,0 +1,9 @@
+[project]
+name = "ble-positioning"
+version = "0.1.0"
+description = "BLE beacon indoor/underground positioning core (capstone track 1)"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24", "scipy>=1.10", "scikit-learn>=1.3"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
